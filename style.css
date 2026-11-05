@@ -31,7 +31,7 @@ body{
 }
 .menu-horizontal a:hover{
     background-color: rgb(79, 24, 134);
-    padding: 15px 19px;
+    /* padding: 15px 19px; */
 }
 .pagina{
     display: flex;
@@ -66,7 +66,7 @@ body{
 }
 .menu-lateral a:hover{
     background-color: rgb(100, 31, 170);
-    padding: 15px 19px;
+    /* padding: 15px 19px; */
     box-shadow: 5px 5px 5px rgb(21, 5, 37);
 }
 .conteudo{
@@ -112,6 +112,15 @@ th{
 }
 .link:hover{
     background-color: rgb(100, 31, 170);
-    padding: 15px 19px;
     box-shadow: 5px 5px 5px rgb(21, 5, 37);
+}
+.menu-horizontal .submenu{
+    display: none;
+}
+.menu-horizontal li:hover .submenu{
+    display: block;
+}
+.menu-horizontal a{
+    display: block;
+    margin-top: 10px;
 }
